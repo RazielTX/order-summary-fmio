@@ -6,6 +6,7 @@
     --p-bright-blue-a: hsla(245, 75%, 52%, 0.3);
 
     /* Colors Secondary */
+    --s-bright-blue: hsl(245, 66%, 58%);
     --s-very-pale-blue: hsl(0, 0%, 100%);
     --s-desaturated-blue: hsl(224, 23%, 55%);
     --s-dark-blue: hsl(223, 47%, 23%);
@@ -46,7 +47,7 @@ img {
     flex-direction: column;
     align-items: center;
 
-    max-width: 340px;
+    max-width: 370px;
 
     background-color: var(--white);
 
@@ -63,7 +64,6 @@ img {
 }
 
 .card-title {
-
     margin: 1.25em 0 0 0;
 
     font-weight: 700;
@@ -73,7 +73,6 @@ img {
 }
 
 .description {
-
     margin-bottom: 2em;
 
     text-align: center;
@@ -128,6 +127,11 @@ img {
     color: var(--p-bright-blue);
 }
 
+.modify-primary:hover {
+    text-decoration: none;
+    color: var(--s-bright-blue);
+}
+
 .buttons-container {
     display: flex;
     flex-direction: column;
@@ -155,9 +159,17 @@ img {
     box-shadow: 0 10px 20px var(--p-bright-blue-a);
 }
 
+.primary-button:hover {
+    background-color: var(--s-bright-blue);
+}
+
 .secondary-button {
     color: var(--s-desaturated-blue);
     font-weight: bold;
+}
+
+.secondary-button:hover {
+    color: var(--s-dark-blue);
 }
 
 .attribution { 
