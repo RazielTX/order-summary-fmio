@@ -3,6 +3,7 @@
     --p-pale-blue: hsl(225, 100%, 94%);
     --p-pale-blue-a: hsla(225, 100%, 94%, 0.4);
     --p-bright-blue: hsl(245, 75%, 52%);
+    --p-bright-blue-a: hsla(245, 75%, 52%, 0.3);
 
     /* Colors Secondary */
     --s-very-pale-blue: hsl(0, 0%, 100%);
@@ -51,13 +52,14 @@ img {
 
     border-radius: 20px;
     overflow: hidden;   
+    box-shadow: 0 0 20px var(--p-bright-blue-a);
 }
 
 .order-summary {
     display: flex;
     flex-direction: column;
 
-    padding: 1em 2em;
+    padding: 1em 2em;    
 }
 
 .card-title {
@@ -149,6 +151,8 @@ img {
     font-weight: bold;
 
     background-color: var(--p-bright-blue);
+
+    box-shadow: 0 10px 20px var(--p-bright-blue-a);
 }
 
 .secondary-button {
