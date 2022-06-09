@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/RazielTX/order-summary-fmio)
-- Live Site URL: [Add live site URL here](https://razieltx.github.io/order-summary-fmio/)
+- Solution URL: [Github repository](https://github.com/RazielTX/order-summary-fmio)
+- Live Site URL: [Github pages](https://razieltx.github.io/order-summary-fmio/)
 
 ### Built with
 
